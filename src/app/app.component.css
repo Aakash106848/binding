@@ -1,0 +1,92 @@
+div{
+animation: ani1 2s infinite alternate-reverse;
+width: fit-content;
+color: aqua;
+}
+div:first-of-type
+{
+    width: 500px;
+    height: 500px;
+}
+table
+
+td
+{   
+    padding: 10px;
+    margin : 10px;
+    border: 2px solid yellow;
+}
+h1
+{
+    text-shadow: 10px 10px 10px;
+}
+
+.ocean
+{
+    background-color: aqua;
+    width: fit-content;
+    height: fit-content;
+    font-family:"tahoma" ;
+    color: red;
+}
+.forest
+{
+    background-color: green;
+    width: fit-content;
+    height: fit-content;
+    font-family:'helvetica';
+    color:yellow;
+}
+
+
+.cloud
+{
+    
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    font-family:'fantasy';
+    color:red;
+
+}
+ul
+{
+    list-style-type:disc ;
+}
+@keyframes ani1 {
+    0%{
+        box-shadow: 10px 10px 10px red;
+    }
+    10%{
+        box-shadow: 10px 10px 10px yellow;
+
+    }
+    20%{
+        box-shadow: 10px 10px 10px green;
+    }
+    30%{
+        box-shadow: 10px 10px 10px blue;
+    }
+    40%{
+        box-shadow: 10px 10px 10px orange;
+    }
+    50%{
+        box-shadow: 10px 10px 10px aqua;
+    }
+    60%{
+        box-shadow: 10px 10px 10px green;
+    }
+    70%{
+        box-shadow: 10px 10px 10px blue;
+    }
+    80%{
+        box-shadow: 10px 10px 10px orange;
+    }
+    90%{
+        box-shadow: 10px 10px 10px teal;
+    }
+    100%{
+        box-shadow: 10px 10px 10px red;
+    }
+}
+
